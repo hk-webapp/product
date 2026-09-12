@@ -2,13 +2,13 @@ self.__BUILD_MANIFEST = {
   "__rewrites": {
     "afterFiles": [
       {
-        "source": "/shopHost/product"
+        "source": "/hostShop/product"
       }
     ],
     "beforeFiles": [
       {
-        "source": "/shopHost/product//_next/:path+",
-        "destination": "/shopHost/product/_next/:path+"
+        "source": "/hostShop/product//_next/:path+",
+        "destination": "/hostShop/product/_next/:path+"
       }
     ],
     "fallback": []
